@@ -15,7 +15,7 @@ object Form1: TForm1
   TextHeight = 13
   object Label1: TLabel
     Left = 136
-    Top = 16
+    Top = 8
     Width = 280
     Height = 33
     Caption = 'DATABASE SEKOLAH'
@@ -33,6 +33,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'USER'
     TabOrder = 0
+    OnClick = Button1Click
   end
   object Button2: TButton
     Left = 136
@@ -41,6 +42,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'WALI KELAS'
     TabOrder = 1
+    OnClick = Button2Click
   end
   object Button3: TButton
     Left = 136
