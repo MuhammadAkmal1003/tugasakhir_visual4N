@@ -1,9 +1,9 @@
-object Form3: TForm3
-  Left = 768
-  Top = 210
-  Width = 598
+object Form6: TForm6
+  Left = 793
+  Top = 169
+  Width = 641
   Height = 480
-  Caption = 'Laporan Wali Kelas'
+  Caption = 'Laporan Orang Tua'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,100 +14,58 @@ object Form3: TForm3
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 32
+    Left = 24
     Top = 16
-    Width = 19
-    Height = 16
+    Width = 17
+    Height = 13
     Caption = 'NIK'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
   end
   object Label2: TLabel
-    Left = 32
+    Left = 24
     Top = 40
-    Width = 34
-    Height = 16
+    Width = 29
+    Height = 13
     Caption = 'NAMA'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
   end
   object Label3: TLabel
-    Left = 32
+    Left = 24
     Top = 64
-    Width = 86
-    Height = 16
-    Caption = 'JENIS KELAMIN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+    Width = 114
+    Height = 13
+    Caption = 'PENDIDIKAN TERAKHIR'
   end
   object Label4: TLabel
-    Left = 32
+    Left = 24
     Top = 88
-    Width = 69
-    Height = 16
-    Caption = 'PENDIDIKAN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+    Width = 57
+    Height = 13
+    Caption = 'PEKERJAAN'
   end
   object Label5: TLabel
-    Left = 32
+    Left = 24
     Top = 112
-    Width = 73
-    Height = 16
+    Width = 62
+    Height = 13
     Caption = 'NO TELEPON'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
   end
   object Label6: TLabel
-    Left = 32
+    Left = 24
     Top = 136
-    Width = 103
-    Height = 16
-    Caption = 'MATA PELAJARAN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+    Width = 40
+    Height = 13
+    Caption = 'ALAMAT'
   end
   object Label7: TLabel
-    Left = 32
+    Left = 24
     Top = 160
-    Width = 48
-    Height = 16
-    Caption = 'ALAMAT'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
+    Width = 74
+    Height = 13
+    Caption = 'JENIS KELAMIN'
   end
   object edt1: TEdit
     Left = 152
     Top = 16
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 0
     Text = 'edt1'
@@ -115,7 +73,7 @@ object Form3: TForm3
   object edt2: TEdit
     Left = 152
     Top = 40
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 1
     Text = 'Edit1'
@@ -123,7 +81,7 @@ object Form3: TForm3
   object edt3: TEdit
     Left = 152
     Top = 64
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 2
     Text = 'Edit1'
@@ -131,7 +89,7 @@ object Form3: TForm3
   object edt4: TEdit
     Left = 152
     Top = 88
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 3
     Text = 'Edit1'
@@ -139,7 +97,7 @@ object Form3: TForm3
   object edt5: TEdit
     Left = 152
     Top = 112
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 4
     Text = 'Edit1'
@@ -147,7 +105,7 @@ object Form3: TForm3
   object edt6: TEdit
     Left = 152
     Top = 136
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 5
     Text = 'Edit1'
@@ -155,63 +113,63 @@ object Form3: TForm3
   object edt7: TEdit
     Left = 152
     Top = 160
-    Width = 329
+    Width = 369
     Height = 21
     TabOrder = 6
     Text = 'Edit1'
   end
   object btn1: TButton
-    Left = 32
-    Top = 192
+    Left = 24
+    Top = 200
     Width = 75
     Height = 25
     Caption = 'Baru'
     TabOrder = 7
   end
   object btn2: TButton
-    Left = 120
-    Top = 192
+    Left = 112
+    Top = 200
     Width = 75
     Height = 25
     Caption = 'Simpan'
     TabOrder = 8
   end
   object btn3: TButton
-    Left = 208
-    Top = 192
+    Left = 200
+    Top = 200
     Width = 75
     Height = 25
     Caption = 'Edit'
     TabOrder = 9
   end
   object btn4: TButton
-    Left = 296
-    Top = 192
+    Left = 288
+    Top = 200
     Width = 75
     Height = 25
     Caption = 'Hapus'
     TabOrder = 10
   end
   object btn5: TButton
-    Left = 384
-    Top = 192
+    Left = 376
+    Top = 200
     Width = 75
     Height = 25
     Caption = 'Batal'
     TabOrder = 11
   end
-  object Button6: TButton
-    Left = 472
-    Top = 192
+  object btn6: TButton
+    Left = 464
+    Top = 200
     Width = 75
     Height = 25
     Caption = 'Laporan'
     TabOrder = 12
   end
   object DBGrid1: TDBGrid
-    Left = 32
-    Top = 232
-    Width = 513
+    Left = 24
+    Top = 256
+    Width = 585
     Height = 120
     TabOrder = 13
     TitleFont.Charset = DEFAULT_CHARSET
@@ -220,28 +178,11 @@ object Form3: TForm3
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
   end
-  object ZConnection1: TZConnection
-    ControlsCodePage = cGET_ACP
-    UTF8StringsAsWideField = False
-    AutoEncodeStrings = False
-    Port = 0
-    Left = 32
-    Top = 360
-  end
-  object ZQuery1: TZQuery
-    Params = <>
-    Left = 96
-    Top = 360
-  end
-  object DataSource1: TDataSource
-    Left = 168
-    Top = 360
-  end
   object frxDBDataset1: TfrxDBDataset
     UserName = 'frxDBDataset1'
     CloseDataSource = False
-    Left = 520
-    Top = 24
+    Left = 568
+    Top = 40
   end
   object frxReport1: TfrxReport
     Version = '4.0.11'
@@ -251,17 +192,34 @@ object Form3: TForm3
     PreviewOptions.Zoom = 1.000000000000000000
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
-    ReportOptions.CreateDate = 45119.843486655100000000
-    ReportOptions.LastChange = 45119.843486655100000000
+    ReportOptions.CreateDate = 45120.847901724530000000
+    ReportOptions.LastChange = 45120.847901724530000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
       ''
       'end.')
-    Left = 520
-    Top = 88
+    Left = 568
+    Top = 104
     Datasets = <>
     Variables = <>
     Style = <>
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 32
+    Top = 392
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 112
+    Top = 392
+  end
+  object DataSource1: TDataSource
+    Left = 184
+    Top = 392
   end
 end

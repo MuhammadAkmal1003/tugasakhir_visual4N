@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 152
+  Left = 796
+  Top = 229
   Width = 572
   Height = 403
   Caption = 'MAIN MENU'
@@ -51,6 +51,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'SISWA'
     TabOrder = 2
+    OnClick = Button3Click
   end
   object Button4: TButton
     Left = 136
@@ -59,6 +60,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'KELAS'
     TabOrder = 3
+    OnClick = Button4Click
   end
   object Button5: TButton
     Left = 328
@@ -67,6 +69,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'ORANG TUA'
     TabOrder = 4
+    OnClick = Button5Click
   end
   object Button6: TButton
     Left = 328
@@ -75,6 +78,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'SEMESTER'
     TabOrder = 5
+    OnClick = Button6Click
   end
   object Button7: TButton
     Left = 328
@@ -83,6 +87,7 @@ object Form1: TForm1
     Height = 41
     Caption = 'HUBUNGAN'
     TabOrder = 6
+    OnClick = Button7Click
   end
   object Button8: TButton
     Left = 328
@@ -91,5 +96,6 @@ object Form1: TForm1
     Height = 41
     Caption = 'POIN'
     TabOrder = 7
+    OnClick = Button8Click
   end
 end

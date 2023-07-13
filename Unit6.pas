@@ -1,15 +1,15 @@
-unit Unit3;
+unit Unit6;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, frxClass, frxDBSet, DB, ZAbstractRODataset,
-  ZAbstractDataset, ZDataset, ZAbstractConnection, ZConnection, Grids,
-  DBGrids;
+  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset,
+  ZAbstractConnection, ZConnection, frxClass, frxDBSet, Grids, DBGrids,
+  StdCtrls;
 
 type
-  TForm3 = class(TForm)
+  TForm6 = class(TForm)
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
@@ -29,13 +29,13 @@ type
     btn3: TButton;
     btn4: TButton;
     btn5: TButton;
-    Button6: TButton;
+    btn6: TButton;
     DBGrid1: TDBGrid;
+    frxDBDataset1: TfrxDBDataset;
+    frxReport1: TfrxReport;
     ZConnection1: TZConnection;
     ZQuery1: TZQuery;
     DataSource1: TDataSource;
-    frxDBDataset1: TfrxDBDataset;
-    frxReport1: TfrxReport;
   private
     { Private declarations }
   public
@@ -43,7 +43,7 @@ type
   end;
 
 var
-  Form3: TForm3;
+  Form6: TForm6;
 
 implementation
 

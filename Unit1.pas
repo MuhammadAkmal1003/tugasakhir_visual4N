@@ -19,6 +19,12 @@ type
     Button8: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,7 +36,7 @@ var
 
 implementation
 
-uses Unit2, Unit3;
+uses Unit2, Unit3, Unit4, Unit5, Unit6, Unit7, Unit8, Unit9;
 
 {$R *.dfm}
 
@@ -42,6 +48,36 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
 form3.show;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+form4.show;
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+form5.show;
+end;
+
+procedure TForm1.Button5Click(Sender: TObject);
+begin
+form6.show;
+end;
+
+procedure TForm1.Button6Click(Sender: TObject);
+begin
+form7.show;
+end;
+
+procedure TForm1.Button7Click(Sender: TObject);
+begin
+form8.show;
+end;
+
+procedure TForm1.Button8Click(Sender: TObject);
+begin
+Form9.Show;
 end;
 
 end.
